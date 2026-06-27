@@ -109,6 +109,29 @@
     </div>
   </section>
 
+  <section class="architecture">
+    <div class="container">
+      <h2>Architecture</h2>
+      <div class="arch-diagram">
+        <div class="arch-layer">
+          <div class="arch-box">AI Apps</div>
+          <div class="arch-arrow">↕</div>
+          <div class="arch-box highlight">AetherSelf Client SDK</div>
+          <div class="arch-arrow">↕</div>
+          <div class="arch-box">Local Daemon (SQLite)</div>
+          <div class="arch-arrow">↕</div>
+          <div class="arch-box">Encrypted Identity Graph</div>
+        </div>
+      </div>
+      <div class="arch-stack">
+        <div class="stack-item"><span class="stack-label">Encryption</span><span class="stack-value">XChaCha20-Poly1305</span></div>
+        <div class="stack-item"><span class="stack-label">Identity</span><span class="stack-value">Ed25519 DIDs</span></div>
+        <div class="stack-item"><span class="stack-label">Storage</span><span class="stack-value">SQLite (local-first)</span></div>
+        <div class="stack-item"><span class="stack-label">Transport</span><span class="stack-value">HTTP REST + WebSocket</span></div>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
       <p>🔮 AetherSelf — Built by <a href="https://github.com/10xdev4u-alt">10xdev4u-alt</a></p>
