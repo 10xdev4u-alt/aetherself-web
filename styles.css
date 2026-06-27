@@ -285,6 +285,33 @@ footer a:hover { text-decoration: underline; }
 .compare-table th { color: var(--muted); font-weight: 500; }
 .compare-table td:first-child { text-align: left; }
 
+/* FAQ */
+.faq { padding: 80px 0; }
+
+.faq-grid { max-width: 600px; margin: 0 auto; }
+
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--text);
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::before { content: "+ "; color: var(--primary); }
+.faq-item[open] summary::before { content: "- "; }
+
+.faq-item p {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
