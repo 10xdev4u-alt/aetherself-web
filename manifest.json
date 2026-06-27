@@ -1,0 +1,9 @@
+{
+  "name": "AetherSelf",
+  "short_name": "AetherSelf",
+  "description": "Your AI Identity Layer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#0066ff"
+}
