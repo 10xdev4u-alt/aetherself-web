@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AetherSelf — Your AI Identity Layer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+</head>
+<body>
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="logo">🔮 AetherSelf</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How It Works</a>
+        <a href="https://github.com/10xdev4u-alt/aetherself-core">GitHub</a>
+        <a href="https://github.com/10xdev4u-alt/aetherself-demo" class="btn btn-sm">Try Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Your Identity.<br>Every AI.</h1>
+      <p class="hero-sub">A portable, encrypted, user-owned context layer that travels with you across every AI application. You are not a stranger anymore.</p>
+      <div class="hero-actions">
+        <a href="#get-started" class="btn btn-primary">Get Started</a>
+        <a href="https://github.com/10xdev4u-alt/aetherself-core" class="btn btn-ghost">View on GitHub</a>
+      </div>
+      <div class="hero-code">
+        <code>$ npm install -g @aetherself/cli<br>$ aetherself init<br>🔑 Generating Ed25519 key pair...<br>✅ AetherSelf identity created!<br>🆔 did:aetherself:abc123...</code>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Built for the AI Era</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔐</div>
+          <h3>Zero-Knowledge Encryption</h3>
+          <p>All data encrypted client-side with XChaCha20-Poly1305. The server never sees your plaintext.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🆔</div>
+          <h3>Portable Identity</h3>
+          <p>Your DID (Decentralized Identifier) works everywhere. No platform lock-in.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3>Local-First</h3>
+          <p>Works offline. Syncs when connected. Your data lives on your machine.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant Setup</h3>
+          <p>One command to create your identity. One command to start the daemon.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>Memory & Context</h3>
+          <p>AI remembers you across sessions, apps, and devices. Your context follows you.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Open Protocol</h3>
+          <p>Anyone can implement a server. The protocol is the product, not the platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="how-it-works">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Create Your Identity</h3>
+          <p>Generate an Ed25519 key pair. Your public key becomes your DID.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Start the Daemon</h3>
+          <p>Run the local server. It stores your encrypted identity graph.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Connect AI Apps</h3>
+          <p>Any AI app can read your context. You control what's shared.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="get-started" class="get-started">
+    <div class="container">
+      <h2>Get Started Now</h2>
+      <div class="install-block">
+        <code>npm install -g @aetherself/cli</code>
+      </div>
+      <div class="quick-commands">
+        <div class="cmd"><span class="cmd-label">Init</span><code>aetherself init</code></div>
+        <div class="cmd"><span class="cmd-label">Serve</span><code>aetherself serve</code></div>
+        <div class="cmd"><span class="cmd-label">Status</span><code>aetherself status</code></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>🔮 AetherSelf — Built by <a href="https://github.com/10xdev4u-alt">10xdev4u-alt</a></p>
+      <p class="footer-sub">MIT Licensed · Open Source · <a href="https://github.com/10xdev4u-alt/aetherself-core">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
