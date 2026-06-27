@@ -396,6 +396,35 @@ footer a:hover { text-decoration: underline; }
 }
 .newsletter-form input:focus { border-color: var(--primary); }
 
+/* Stats */
+.stats { padding: 60px 0; }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 24px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
