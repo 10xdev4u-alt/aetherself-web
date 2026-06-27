@@ -1,0 +1,15 @@
+# Code of Conduct
+
+## Our Pledge
+
+We pledge to make participation in our project a harassment-free experience for everyone.
+
+## Standards
+
+- Be respectful
+- Be constructive
+- Be inclusive
+
+## Enforcement
+
+Report issues to conduct@aetherself.dev
