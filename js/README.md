@@ -1,0 +1,38 @@
+# AetherSelf Landing Page Scripts
+
+- `app.js` — Main app initialization
+- `scroll.js` — Back-to-top button
+- `theme.js` — Dark/light theme toggle
+- `animate.js` — Scroll reveal animations
+- `counter.js` — Animated stat counters
+- `copy.js` — Copy-to-clipboard for code
+- `typewriter.js` — Hero typewriter effect
+- `particles.js` — Floating particles background
+- `navigation.js` — Mobile nav toggle
+- `lazy-load.js` — Lazy load images
+- `search.js` — Keyboard shortcut search
+- `modal.js` — Modal helper
+- `dropdown.js` — Dropdown menus
+- `tooltip.js` — Tooltip helper
+- `accordion.js` — FAQ accordion
+- `progress.js` — Reading progress bar
+- `clipboard.js` — Clipboard helper
+- `share.js` — Social share buttons
+- `toc.js` — Table of contents generator
+- `keyboard.js` — Keyboard shortcuts
+- `backtotop.js` — Smooth back-to-top
+- `anchor.js` — Smooth anchor scroll
+- `form.js` — Form validation
+- `toast.js` — Toast notifications
+- `darkmode.js` — Persistent dark mode
+- `service-worker.js` — PWA registration
+- `performance.js` — Performance monitoring
+- `accessibility.js` — A11y auto-fixes
+- `intersection-observer.js` — Intersection observer helper
+- `dom.js` — DOM utilities
+- `storage.js` — Local storage helper
+- `debounce.js` — Debounce/throttle
+- `fetch.js` — Fetch with timeout
+- `queue.js` — Promise queue
+- `observable.js` — Observable pattern
+- `cache.js` — In-memory cache
